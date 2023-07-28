@@ -1,0 +1,22 @@
+.product-image{
+     width: 100%;
+     height: 200px;
+     object-fit: contain;
+}
+h1 h3 h5 h6{
+    margin-bottom:20px; 
+}
+
+.quality-group{
+    margin-top: 20px;
+}
+
+.quality-group button{
+    padding: 20px;
+    height: 25px;
+}
+.quality-group input{
+    width: 50px;
+    padding:10px;
+    
+}

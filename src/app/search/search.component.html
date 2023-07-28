@@ -1,0 +1,14 @@
+<div class="row search-item" *ngFor="let searcheditem of searchResults">
+    <div class="col-sm-3">
+        <a routerLink="/details/{{searcheditem.id}}">
+            <img src="{{searcheditem.purl}}">
+        </a>
+    </div>
+    <div class="col-sm-8 details">
+        <h6>{{searcheditem.pname}}</h6>
+        <p><b>Price : {{searcheditem.pprice}} </b></p>
+        <p><span>Color : Green</span><span>Category : {{searcheditem.pcategory}}</span></p>
+        <p>A product search UI</p>
+    </div>
+</div>
+

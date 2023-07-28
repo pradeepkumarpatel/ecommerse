@@ -1,0 +1,64 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar h1{
+    margin: 0;
+    font-size: 40px;
+    color:blueviolet
+}
+
+.navbar ul{
+    display: inline-flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+}
+
+.navbar li{
+    padding-left: 15px;
+    padding-top: 15px;
+}
+
+.navbar li a{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.navbar .nav-search input{
+    flex: 1;
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    height: 30px;
+    border-right: 0;
+}
+
+.navbar .nav-search button{
+    color: blueviolet;
+    border: 1px solid blueviolet;
+    height: 30px;
+    border-left: 0;
+}
+
+.nav-search{
+    flex: 1;
+    display: flex;
+    margin-top: 5px;
+    margin-left: 10px;
+    margin-right: 10px;
+}
+
+.header-logo{
+    text-decoration: none;
+    color: blueviolet;
+}
+
+.sugget-result {
+    position: absolute;
+    display: list-item !important;
+    z-index: 10;
+    background-color: #00000052;
+    top: 48px;
+    width: 300px;
+}

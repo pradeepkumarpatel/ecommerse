@@ -1,0 +1,32 @@
+<div>
+    <h1>All Products</h1>
+    <span>{{deletedProductsStatus}}</span>
+    <table class="table table-bordered">
+        <thead class="thead">
+            <tr>
+                <th>Image</th>
+                <th>Name</th>
+                <th>Price</th>
+                <th>Category</th>
+                <th>Description</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+        <tbody class="tbody">
+            <tr *ngFor="let product of allProducts">
+                <td><img class="product-image" src="{{product.purl}}" alt="" /></td>
+                <td>{{product.pname}}</td>
+                <td>{{product.pprice}}</td>
+                <td>{{product.pcategory}}</td>
+                <td>{{product.pdescription}}</td>
+
+                <td><span><i (click)="deletitem(product.id)" class="fas fa-trash-alt"></i></span>
+                    <span routerLink="/seller-update-product/{{product.id}}" style="margin-left: 10px;"><i
+                            class="fas fa-edit"></i></span>
+                    <!-- <span (click)="openPopup(product.id)" style="margin-left: 10px;"><i
+                                class="fas fa-edit"></i></span> -->
+                </td>
+            </tr>
+        </tbody>
+    </table>
+</div>

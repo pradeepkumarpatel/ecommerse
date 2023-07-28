@@ -1,0 +1,68 @@
+{
+  "seller": [
+    {
+      "name": "rahul",
+      "pass": "test123",
+      "email": "test@.com",
+      "id": 1
+    },
+    {
+      "name": "jatin",
+      "pass": "jatin123",
+      "email": "jatin@.com",
+      "id": 4
+    },
+    {
+      "name": "neeraj",
+      "pass": "neeraj123",
+      "email": "neeraj@.com",
+      "id": 5
+    },
+    {
+      "name": "karan",
+      "pass": "karan123",
+      "email": "karan@.com",
+      "id": 6
+    },
+    {
+      "name": "pradeep ",
+      "pass": "pradeep@333",
+      "email": "pradeepkumar33344@gmail.com",
+      "id": 7
+    }
+  ],
+  "product": [
+    {
+      "pname": "Dell Vostro 5410",
+      "pprice": "92000",
+      "pcategory": "Laptop",
+      "pdescription": "Apple products are trustable.",
+      "purl": "https://i.dell.com/is/image/DellContent/content/dam/ss2/product-images/dell-client-products/notebooks/latitude-notebooks/15-7530/media-gallery/laptop-latitude-15-7530-gray-gallery-4.psd?fmt=png-alpha&pscan=auto&scl=1&hei=402&wid=666&qlt=100,1&resMode=sharp2&size=666,402&chrss=full",
+      "id": 1
+    },
+    {
+      "pname": "One plus 9T",
+      "pprice": "36000",
+      "pcategory": "Mobile",
+      "pdescription": "This product is undertaken by vivo",
+      "purl": "https://m.media-amazon.com/images/I/71AvQd3VzqL._SX679_.jpg",
+      "id": 3
+    },
+    {
+      "pname": "Noise Air 3",
+      "pprice": "4000",
+      "pcategory": "Airpod",
+      "pdescription": "Noise products are amazing",
+      "purl": "https://rukminim1.flixcart.com/image/832/832/l15bxjk0/headphone/h/p/w/rma2105-realme-original-imagcsfvjhsygg6x.jpeg?q=70",
+      "id": 5
+    },
+    {
+      "pname": "Nike Air",
+      "pprice": "16000",
+      "pcategory": "Shoe",
+      "pdescription": "Nike air is a great shoe for running",
+      "purl": "https://rukminim1.flixcart.com/image/832/832/xif0q/shoe/8/z/v/12-da8535-401nike-13-nike-old-royal-white-black-racer-blue-original-imaghyg5y4kk8we4.jpeg?q=70",
+      "id": 5
+    }
+  ]
+}

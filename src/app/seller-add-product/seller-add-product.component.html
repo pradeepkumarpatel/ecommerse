@@ -1,0 +1,13 @@
+<div class="add-product">
+    <h1 class="addproduct-header">Add New Product</h1>
+    <span class="praduct-add-status">{{productAddStatus}}</span>
+    <form class="common-form" #addProduct="ngForm"  (ngSubmit)="addProducts(addProduct.value); addProduct.reset()">
+        <input class="form-input" type="text" name="pname" ngModel placeholder="Enter Product Name">
+        <input class="form-input" type="text" name="pprice" ngModel placeholder="Enter Product Price">
+        <input class="form-input" type="text" name="pcategory" ngModel placeholder="Enter Product Category">
+        <textarea class="form-input" row="3" name="pdescription" ngModel placeholder="Enter Product Description"></textarea> 
+        <input class="form-input" type="text" name="purl" ngModel placeholder="Enter Product Image Url">
+        <button class="form-button">Add Product</button>
+        <!-- <button class="form-button" (click)="addProductsMongoDB(addProduct.value)">Add Product In Mongo</button> -->
+    </form>
+</div>
